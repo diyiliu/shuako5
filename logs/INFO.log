@@ -1,0 +1,4 @@
+[ INFO ] [2016-02-22 17:13:57] com.alibaba.druid.pool.DruidDataSource.main [669] - {dataSource-1} inited
+[ INFO ] [2016-02-22 17:14:00] UserTest.main [56] - hello logback!
+[ INFO ] [2016-02-22 17:14:00] com.alibaba.druid.pool.DruidDataSource.Thread-3 [1385] - {dataSource-1} closed
+[ INFO ] [2016-02-22 17:15:59] LogTest.main [19] - hello logback!

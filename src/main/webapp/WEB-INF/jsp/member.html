@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link type="text/css" rel="stylesheet" href="./css/iCheck/all.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/dropzone/dropzone.css">
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <title>刷壳</title>
+</head>
+<body>
+<div class="mainmenu-wrapper">
+    <div class="container">
+        <div class="menuextras">
+            <div class="extras">
+                <ul>
+                    <li><a href="../../login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="mainmenu" class="mainmenu">
+            <ul>
+                <li class="logo-wrapper"><a href="../../index.html"><img src="img/shuako-logo.png" alt="刷壳"></a></li>
+                <li><a href="../../index.html">首页</a></li>
+                <li><a href="task.html">任务</a></li>
+                <li><a href="order.html">订单</a></li>
+                <li><a href="publish.html">发布</a></li>
+                <li><a href="#">帮助</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>完善资料</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <!-- Blog Post -->
+            <div class="col-sm-8">
+                <div class="publish publish-single">
+                    <div class="single-title">
+                        <h3>会员信息登记</h3>
+                    </div>
+
+                    <!-- Comments -->
+                    <div class="post-coments">
+                        <!-- Comments Form -->
+                        <div class="comment-form-wrapper">
+                            <form class="">
+                                <div class="form-group">
+                                    <label for="comment-1"><b>推荐人</b></label>
+                                    <input class="form-control" id="comment-1" type="text" placeholder="没有可以不填">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-2"><b>常用 QQ</b></label>
+                                    <input class="form-control" id="comment-2" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-3"><b>备用 QQ</b></label>
+                                    <input class="form-control" id="comment-3" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-4"><b>常用手机</b></label>
+                                    <input class="form-control" id="comment-4" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-5"><b>备用手机</b></label>
+                                    <input class="form-control" id="comment-5" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-6"><b>邮箱 Email</b></label>
+                                    <input class="form-control" id="comment-6" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-7"><b>旺旺账号</b></label>
+                                    <input class="form-control" id="comment-7" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-12"><b>会员类型</b></label>
+                                    <div class="row form-control-feedback">
+                                        <div class="col-sm-offset-2 col-sm-5">
+                                            我是拍手
+                                            <label>
+                                                <input type="radio" name="r3" class="flat-blue" checked/>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            我是商家
+                                            <label>
+                                                <input type="radio" name="r3" class="flat-blue"/>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-8"><b>真实姓名</b></label>
+                                    <input class="form-control" id="comment-8" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-9"><b>现居地</b></label>
+                                    <input class="form-control" id="comment-9" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-10"><b>财付通账号</b></label>
+                                    <input class="form-control" id="comment-10" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-11"><b>支付宝账号</b></label>
+                                    <input class="form-control" id="comment-11" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-12"><b>身份证号</b></label>
+                                    <input class="form-control" id="comment-12" type="text" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment-12"><b>身份证正面</b></label>
+                                    <div class="row myDropzone">
+                                        <div class="col-lg-4">
+                                            <div id="myDropzone" class="dropzone"></div>
+                                        </div>
+                                        <div class="col-lg-offset-1 col-lg-7 preview">
+                                            <img id="credPrev" width="300" height="169" src="./img/credencials.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-large pull-right">提交</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </form>
+                        </div>
+                        <!-- End Comment Form -->
+                    </div>
+                    <!-- End Comments -->
+                </div>
+            </div>
+            <!-- End Blog Post -->
+            <!-- Sidebar -->
+            <div class="col-sm-4 blog-sidebar">
+                <h4>最近注册</h4>
+                <ul class="recent-posts">
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Sed sit amet metus sit</a></li>
+                    <li><a href="#">Nunc et diam volutpat tellus ultrices</a></li>
+                    <li><a href="#">Quisque sollicitudin cursus felis</a></li>
+                    <li><a href="#">Lorem ipsum</a></li>
+                    <li><a href="#">Sed sit amet metus</a></li>
+                    <li><a href="#">Nunc et diam </a></li>
+                    <li><a href="#">Quisque</a></li>
+                </ul>
+            </div>
+            <!-- End Sidebar -->
+        </div>
+    </div>
+</div>
+
+<!-- Javascripts -->
+<!--
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>-->
+<script src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/main-menu.js"></script>
+<script src="./js/AdminLTE/app.js"></script>
+<script src="./js/plugins/dropzone/dropzone.js"></script>
+
+<!-- Page script -->
+<script type="text/javascript">
+    $(function () {
+        //dropzone
+        $("div#myDropzone").dropzone({
+            url: "/upload",
+            paramName: "file",
+            maxFiles: 2,
+            maxFilesize: 0.35,
+            addRemoveLinks: true,
+            acceptedFiles: "image/*",
+            dictDefaultMessage: "上传证件（点击或拖拽）",
+            dictRemoveFile: "移除",
+            init: function() {
+                this.on("addedfile", function(file) {
+                    var len = this.files.length;
+                    if(len > 1){
+                        this.removeFile(this.files[0]);
+                    }
+                });
+                this.on("success", function(file, result) {
+                    toPreview(file, "credPrev");
+                    console.log(JSON.parse(result));
+                });
+            }
+        });
+
+        //iCheck for checkbox and radio inputs
+        $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+            checkboxClass: 'icheckbox_minimal',
+            radioClass: 'iradio_minimal'
+        });
+        //Red color scheme for iCheck
+        $('input[type="checkbox"].minimal-blue, input[type="radio"].minimal-blue').iCheck({
+            checkboxClass: 'icheckbox_minimal-blue',
+            radioClass: 'iradio_minimal-blue'
+        });
+        //Flat blue color scheme for iCheck
+        $('input[type="checkbox"].flat-blue, input[type="radio"].flat-blue').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+    });
+
+    function toPreview(file, imgView){
+        var path = URL.createObjectURL(file);
+        document.getElementById(imgView).src = path;
+    }
+</script>
+</body>
+</html>
